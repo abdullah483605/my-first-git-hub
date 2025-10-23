@@ -1,0 +1,59 @@
+CSS */
+body {
+    background-color: #2187b6; /* Colour for background body */
+    font-family: 'Trobuchet MS', sans-serif; /* Font for background body */
+    margin: 0;    /* Removes default margin */
+    padding: 0;   /* Removes default padding */
+}
+    /* Overall Container styling */
+#container {
+    width: 80%; /* Page takes 80% of the screen width.*/
+    margin: 10px auto;  /* Centers the page horizontally. */
+    border: 3px solid #3fc700; /* Adds border around the box/container */
+    background-color: #ffffff; /* White background for this box/container */
+    padding: 100px; /* Space inside this container */
+    box-shadow: 0 0 10px #000000; /* Soft shadow for the box/container */
+}
+
+/* Header styling */
+
+#header {
+    text-align: center; /* Centers text */
+    border-bottom: 2px solid #77c9d4; /* Line under the heading */
+    padding-bottom: 10px; /* Space below text */
+    margin-bottom: 20px; /* Space before next section */
+}
+
+#subtitle {
+    color: #5c9ea4; /* Soft blue-green text */
+    font-style: italic; /* italicized text */
+}
+
+#main {
+    display: flex; /* Places sidebar and content side bar */
+}
+
+#sidebar {
+    width: 25%; /* Sidebar takes 25% width */
+    background-color: #77c9d4; /* Blue Background */
+    padding: 25px; /* Spaces inside sidebar */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+}
+
+#content {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.post {
+    width: 80%;
+    margin: 10px auto;  
+    border: 3px solid #658a54;
+    background-color: #ffffff;
+    padding: 100px;
+    box-shadow: 0 0 70px #d32a2a;
+}
+.post h3{
+    color: #2c7a7b; /* Dark teal color */
+}
